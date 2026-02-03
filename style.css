@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  h1, h2 {
+    color: #ffffff;
+  }
+  
+  section {
+    background: #1e1e1e;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  input {
+    margin: 5px;
+    padding: 6px;
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #444;
+  }
+  
+  input::placeholder {
+    color: #aaaaaa;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  iframe {
+    border: none;
+    border-radius: 5px;
+  }

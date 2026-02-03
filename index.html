@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Studienmanager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 Studienmanager</h1>
+
+<section>
+  <h2>Kurs hinzufügen</h2>
+
+  <input id="name" type="text" placeholder="Name des Kurses">
+  <input id="credits" type="number" placeholder="Credits">
+  <input id="grade" type="number" step="0.1" placeholder="Note">
+
+  <br><br>
+  <button onclick="addCourse()">Kurs hinzufügen</button>
+</section>
+
+<hr>
+
+<section>
+  <h2>Meine Kurse</h2>
+  <ul id="courseList"></ul>
+</section>
+
+<section>
+  <h2>Aktueller Durchschnitt</h2>
+  <p id="average">-</p>
+</section>
+
+<hr>
+
+<section>
+  <h2>Neuigkeiten</h2>
+  <ul>
+    <li>📢 Abgabe Programmierung – morgen</li>
+    <li>📢 Neue Note verfügbar</li>
+    <li>📢 Raumänderung: H-204</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Mensa KL</h2>
+  <p>
+    <a href="https://www.mensa-kl.de/" target="_blank">
+      👉 Speiseplan der Mensa ansehen
+    </a>
+  </p>
+</section>
+
+<hr>
+
+<script src="script.js"></script>
+</body>
+</html>
